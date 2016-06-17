@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    font-family: "仿宋";
+}
+section{
+    background-color: rgba(165, 156, 166, 0.88);
+    padding: 170px;
+}
+label{
+    width: 8em;
+    padding: 5px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}

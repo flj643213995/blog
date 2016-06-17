@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+header{
+background-image: url(../IMG/yanhuo.jpg);
+background-repeat: round;
+background-color: black;
+/*background-color:blue;*/
+float: left;
+width: 100%;
+}
+footer{
+background-color: rgba(107, 115, 115, 0.79);
+text-align: center;
+float: left;
+width: 98.3%;
+padding: 10px;
+}
+header img{
+    width: 140px;
+    height: 170px;
+    border-radius: 40px;
+    margin: 30px 110px 30px 70px;
+    float: left;
+}
+.name{
+    color: white;
+    /*text-align: center;*/
+    margin-top: 60px;
+    display: block;
+    float: left;
+}
+header h1{
+    margin-bottom: 10px;
+}
+header audio{
+    float: left;
+    margin-top: 160px;
+    margin-left: 150px;
+}
+.side{
+    float: left;
+    width: 25%;
+    padding-bottom: 12px;
+    background-color: rgba(6, 6, 6, 0.96);
+    color: white;
+}
+.side h5{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.side span{
+    display: block;
+}
+.side span{
+    background-color: rgba(186, 21, 21, 0.95);
+    width: 8em;
+    text-align: center;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    margin: 1em;
+    margin-left: -3em;
+    padding: 4px;
+    box-shadow: 0 4px 4px 0 rgba(83, 65, 58, 0.89);
+}
+a{
+    color: white;
+    display: block;
+    padding-left: 40px;
+    text-decoration: none;
+    margin: 3px;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: gray;
+}
+.content{
+    float: left;
+    width: 75%;
+    height: 100%;
+    box-shadow: 0 0 3px 0 black;
+}
+/*.content img{
+    margin: 4px 0 4px 4px;
+    width: 100%;
+    height: 200px;
+}*/
+.banner{
+    background-image: url(../IMG/banner.jpg);
+    background-repeat: round;
+    width: 99.5%;
+    height: 250px;
+    margin: 3px 0px 2px 3px;
+    position: relative;
+}
+.banner h4:hover{
+    padding-left: 50px;
+}
+.banner h4{
+    font-family: "仿宋";
+    font-weight: 800;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+.gps{
+    width: 100%;
+    margin: 3px;
+}
+.gps a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: block;
+    width: 65px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    padding: 10px 25px;
+    margin: 0;
+}
+.gps a:hover{
+    background-color:rgba(186, 21, 21, 0.95);
+}
+.jin{
+    background-color: rgba(186, 21, 21, 0.95);
+    color: white;
+    margin-top: 50px;
+    padding: 4px;
+    text-align: center;
+    width: 8em;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    box-shadow: 0 4px 4px 0 rgba(83, 65, 58, 0.89);
+    margin-left: 672px;
+}
+.line{
+    margin-top: 1px;
+    border-top: 2px black double;
+    margin-left: 3px;
+}
+.art h1,p{
+    padding: 5px 4px;
+}
+.art p a{
+    background-color: white;
+    color: red;
+    margin-left: 600px;
+}
+.xia{
+    background-color: rgba(137, 149, 150, 0.64);
+    margin-left: 3px;
+    padding: 1em auto;
+}
+.xia span{
+    display: inline-block;
+    padding:5px 30px;
+}
+.xia a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.xia a:hover{
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
+    background-color: rgba(137, 149, 150, 0.64);
+}
